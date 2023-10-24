@@ -3,6 +3,7 @@ import CertificatesScroller from './Certificates/CertificatesScroller';
 import './App.module.css';
 import WorkCard from './WorkCard/WorkCard';
 import Contacts from './Contacts/Contacts';
+import Section from './Section/Section';
 
 function App() {
     return (
@@ -11,24 +12,24 @@ function App() {
                 <Navbar />
             </header>
             <main>
-                <section id="home">
+                <Section id="home">
                     <h1>Welcome</h1>
                     <p>My name is Boris Todorov. <br></br>I am a student, and a Software Developer.</p>
-                </section>
-                <section>
+                </Section>
+                <Section>
                     <h2>Work Experience</h2>
                     <WorkCard companyName="MM Solutions"
                               position="Junior Software Developer"
                               activities="Participation in the development and maintenance of various 
                               projects using C/C++ and Bash on Unix-based OS, using development 
                               environment technologies like Docker" />
-                </section>
-                <section id="certificates">
+                </Section>
+                <Section id="certificates">
                     <CertificatesScroller />
-                </section>
-                <section id="contacts">
+                </Section>
+                <Section id="contacts">
                     <Contacts />
-                </section>
+                </Section>
             </main>
         </div>
     );

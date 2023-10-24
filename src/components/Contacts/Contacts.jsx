@@ -23,7 +23,7 @@ function Contacts() {
             <p>You can find me on:</p>
             <ul className={styles.contactsList}>
                 {contacts.map(c => {
-                    return <li>
+                    return <li key={c.href}>
                                <Contact name={c.name} link={c.href}/>
                            </li>
                 })}
