@@ -8,15 +8,14 @@
     font-family: 'Jura', sans-serif;
 }
 
-:root {
-    height: 100%;
+html {
+    scroll-behavior: smooth;
 }
 
 body {
     --dark-background-color: #131212;
     background-color: var(--dark-background-color);
     position: relative;
-    height: 100%;
 }
 
 body::before {

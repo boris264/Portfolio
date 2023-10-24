@@ -1,0 +1,31 @@
+.certificateCard {
+    /* Flexbox properties */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    /* Setting fixed minimum width for the card */
+    min-width: 300px;
+    width: 300px;
+
+    border: 1px solid #959595;
+    border-radius: 30px;
+    padding: 30px 20px;
+    scroll-snap-align: center;
+}
+
+.certificateCard > img {
+    max-width: 100%;
+}
+
+.certificateCard > span {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .certificateCard {
+        min-width: 200px;
+        width: 200px;
+    }
+}
