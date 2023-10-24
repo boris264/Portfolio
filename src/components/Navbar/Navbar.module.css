@@ -1,0 +1,24 @@
+:root {
+    --dark-background-color: #131212;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+    padding: 25px 0;
+    background-color: var(--dark-background-color);
+}
+
+@media screen and (min-width: 900px) {
+    .navbar {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .navbar {
+        font-size: 1.3rem;
+    }
+}

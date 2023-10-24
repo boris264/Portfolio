@@ -1,0 +1,17 @@
+.navitem {
+    text-decoration: none;
+    color: white;
+    font-family: 'Jura', sans-serif;
+    padding: 5px;
+    font-size: inherit;
+}
+
+.navitemHoverTransition {
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 400ms;
+}
+
+.navitemHoverTransition:hover {
+    border-bottom: 1px solid white;
+    transition: border-bottom 400ms;
+}
