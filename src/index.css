@@ -33,3 +33,13 @@ body::before {
     background-position: center;
     z-index: -1;
 }
+
+.hoverTransition {
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 400ms;
+}
+
+.hoverTransition:hover {
+    border-bottom: 1px solid white;
+    transition: border-bottom 400ms;
+}
