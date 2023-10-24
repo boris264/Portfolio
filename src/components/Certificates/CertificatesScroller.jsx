@@ -61,7 +61,7 @@ function CertificatesScroller() {
                     certificates.map(c => {
                         return <CertificateCard
                             key={c.name}
-                            certificateImageUrl={`${c.name}`}
+                            certificateImageUrl={`images/${c.name}`}
                             certificateTitle={c.title} />
                     })
                 }
