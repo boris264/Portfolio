@@ -4,6 +4,7 @@ import './App.module.css';
 import WorkCard from './WorkCard/WorkCard';
 import Contacts from './Contacts/Contacts';
 import Section from './Section/Section';
+import ProjectsContainer from './Project/ProjectsContainer';
 
 function App() {
     return (
@@ -25,9 +26,15 @@ function App() {
                               projects using C/C++ and Bash on Unix-based OS, using development 
                               environment technologies like Docker" />
                 </Section>
+                <Section id="projects">
+                    <h2>Projects</h2>
+                    <ProjectsContainer />
+                </Section>
+
                 <Section id="certificates">
                     <CertificatesScroller />
                 </Section>
+
                 <Section id="contacts">
                     <Contacts />
                 </Section>

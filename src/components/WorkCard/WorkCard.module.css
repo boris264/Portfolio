@@ -12,6 +12,10 @@
     text-align: left;
 }
 
+.workCard > h3 {
+    text-align: center;
+}
+
 @media screen and (max-width: 500px) {
     .workCard > h3 {
         font-size: 1.8rem;

@@ -1,0 +1,11 @@
+.projectsContainer {
+    height: 800px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    overflow: scroll;
+    padding: 30px;
+    scroll-snap-type: y mandatory;
+}

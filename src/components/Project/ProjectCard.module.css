@@ -1,0 +1,38 @@
+.projectCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    min-width: 450px;
+    gap: 30px;
+    border: 1px solid #959595;
+    border-radius: 30px;
+    padding: 25px;
+    text-align: center;
+    scroll-snap-align: center;
+}
+
+.projectCard > h3 {
+    font-size: 2.7rem;
+}
+
+
+.projectCard > a {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+    .projectCard {
+        min-width: 200px;
+    }
+
+    .projectCard > h3 {
+        font-size: 2rem;
+    }
+    
+    
+    .projectCard > a {
+        font-size: 1.5rem;
+    }
+}

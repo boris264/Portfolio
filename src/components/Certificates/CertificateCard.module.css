@@ -2,7 +2,7 @@
     /* Flexbox properties */
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 
     /* Setting fixed minimum width for the card */
     min-width: 300px;
