@@ -3,6 +3,10 @@ import styles from './CertificatesScroller.module.css';
 
 const certificates = [
     {
+        name: "mms-star-camp-certificate.jpg",
+        title: "MM Solutions: Star Camp 15"
+    },
+    {
         name: "programming_with_javascript_coursera_certificate.png",
         title: "Meta: Programming with Javascript"
     },

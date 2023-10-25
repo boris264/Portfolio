@@ -18,6 +18,10 @@ const navItemInfos = [
     {
         name: "Contacts",
         href: "#contacts"
+    },
+    {
+        name: "My CV",
+        href: "/CV_EN_EF.html"
     }
 ]
 
