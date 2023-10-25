@@ -19,6 +19,7 @@ function App() {
                 <Section>
                     <h2>Work Experience</h2>
                     <WorkCard companyName="MM Solutions"
+                              yearSpan="July 2022 / July 2023"
                               position="Junior Software Developer"
                               activities="Participation in the development and maintenance of various 
                               projects using C/C++ and Bash on Unix-based OS, using development 
