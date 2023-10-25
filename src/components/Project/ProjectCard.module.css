@@ -20,11 +20,12 @@
 .projectCard > a {
     font-size: 2rem;
     text-decoration: none;
+    margin-top: auto;
 }
 
 @media screen and (max-width: 900px) {
     .projectCard {
-        min-width: 200px;
+        min-width: 95%;
     }
 
     .projectCard > h3 {
