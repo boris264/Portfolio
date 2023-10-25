@@ -9,7 +9,7 @@ function Contacts() {
         },
         {
             name: "LinkedIn",
-            href: "placeholder"
+            href: "https://www.linkedin.com/in/boris-todorov-025b17199/"
         },
         {
             name: "Email",
