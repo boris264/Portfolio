@@ -6,6 +6,7 @@ const projects = [
         name: "Twins Artstyle V2",
         description: "This is a marketplace for handmade and digital drawings. It is built following the Clean Architecture Pattern and using ASP.NET Core 7, Entity Framework Core, PostgreSQL and a Redis server, which acts as a cache. The application allows users to buy drawings, created by other users and to list their own drawings for others to buy.",
         link: "https://github.com/boris264/TwinsArtstyleV2",
+        isWIP: true
     },
     {
         name: "Authentication Manager",
@@ -27,7 +28,8 @@ function ProjectsContainer() {
                                     key={p.link}
                                     name={p.name} 
                                     description={p.description}
-                                    githubRepositoryLink={p.link} />)
+                                    githubRepositoryLink={p.link}
+                                    isWIP={p.isWIP} />)
             }
         </div>
     );
