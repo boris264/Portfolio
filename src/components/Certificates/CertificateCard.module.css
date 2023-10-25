@@ -14,8 +14,14 @@
     scroll-snap-align: center;
 }
 
-.certificateCard > img {
+.certificateImage {
     max-width: 100%;
+    transition: scale 400ms;
+}
+
+.certificateImage:hover {
+    scale: 1.1;
+    transition: scale 400ms;
 }
 
 .certificateCard > span {
