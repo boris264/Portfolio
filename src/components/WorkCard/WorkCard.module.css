@@ -2,23 +2,54 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 2.5rem;
     gap: 20px;
-    margin: 15px;
     padding: 30px;
     border: 1px solid #959595;
     border-radius: 30px;
-    max-width: 80%;
+    width: 80%;
     text-align: left;
 }
 
 .workCard > h3 {
+    font-size: 2.5rem;
     text-align: center;
 }
 
+.workCard > .summary {
+    color: #b5b5b5;
+    font-size: 1.5rem;
+}
+
+.activities {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 30px;
+    font-size: 1.7rem;
+}
+
+@media screen and (max-width: 900px) {
+    .activities {
+        font-size: 1.5rem;
+    }
+}
+
 @media screen and (max-width: 500px) {
+    .workCard {
+        width: 92%;
+        padding: 20px;
+    }
+
     .workCard > h3 {
         font-size: 1.8rem;
-        text-align: center;
+    }
+
+    .workCard > .summary {
+        font-size: 1.2rem;
+    }
+
+    .activities {
+        padding-left: 20px;
+        font-size: 1.3rem;
     }
 }

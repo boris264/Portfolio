@@ -21,7 +21,7 @@ const navItemInfos = [
     },
     {
         name: "My CV",
-        href: "/CV_EN_EF.pdf"
+        href: "/Boris_Todorov_CV_Bulgaria.pdf"
     }
 ]
 
